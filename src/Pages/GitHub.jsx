@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Footer from '../Components/Footer'
 function GitHub() {
   return (
-    <div className='mt-20 mb-10'>
+    <div className='mt-20'>
     <div className="text-center">
       {/* Profile Card */}
       <div className="max-w-sm w-full mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
@@ -57,6 +57,7 @@ function GitHub() {
         </a>
       </div>
     </div>
+    <Footer />
     </div>
   )
 }
